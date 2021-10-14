@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Hello, World!</title>
+        <link rel="stylesheet" type="text/css" href="_css/style.css"/>
+        
+    </head>
+
+    <body id="corpo">
+
+        <div id="CorpCad2">
+
+            <div id="CorpCad">
+
+                <div id="divCad">
+                    <h1 id="ReaCad">Realize Seu Cadastro</h1>
+                </div>
+
+                <div id="UserImg">
+                    <img src="_img/IconUser.png">
+                </div>
+
+                <form method="post" action="principalCad.php" >
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label" > <!--Nome Completo: --></label>
+                        <input type="text" class="Dig"  name="nome" placeholder="Nome Completo: "/> 
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--CPF:--> </label>
+                        <input type="number" class="Dig"  name="cpf" placeholder="CPF: "/> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--RG: --></label>
+                        <input type="number" class="Dig"  name="rg" placeholder="RG: "/> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--Data De Nascimento: --></label>
+                        <input type="date" class="Dig"  name="nascimento" placeholder="Data De Nascimento: "/> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--Número De  Telefone:--> </label>
+                        <input type="tel" class="Dig"  name="tel" placeholder="Número De  Telefone: "/> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--Email: --></label>
+                        <input type="email" class="Dig"  name="email" placeholder="Email: " /> 
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"><!--Senha: --></label>
+                        <input type="password" class="Dig"  name="senha" placeholder="Senha: "/> 
+                    </div>
+
+                    <div>
+                        <button type="submit" name="Enviar" class="Btn">Enviar</button>
+                    </div>
+
+
+                    
+                </form>
+            </div>
+        </div>
+
+        <!---=============================================-->
+    
+    </body>
+</html>

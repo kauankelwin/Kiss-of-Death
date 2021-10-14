@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tela principal</title>
+        <link rel="stylesheet" type="text/css" href="_css/init.css"/>
+        <link rel="stylesheet" type="text/css" href="_css/resid.css"/>
+    </head>
+
+    <header id="cabecalho">
+        <div id="cabec">
+            <input type="text" class="pesquisa" name="pesquisa" placeholder="Faça Sua Pesquisa..." />
+        </div>
+        <div>
+            <img src="_img/lupapesq.png" id="iconpes"/>
+        </div>
+    </header>
+
+    <body id="corpo3">
+        <div id="BarCorp">
+
+            <aside id="bar">
+                <div id="lateralBar">
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="init.html" target="_self"><img src="_img/iconhome.png" title="Home - Página Inicial" alt="Home - Página Inicial" width="50px" height="50px"/></a></li>
+                            <li><a href="UserLocal.html" target="_self"><img src="_img/IconMenuUser.png" title="Usuário" alt="Usuário" width="50px" height="50px"/></a></li>
+                            <li><a href="Resid.html" target="_self"><img src="_img/CadResid.png" title="Cadastro de Residência" alt="Cadastro de Residência" width="50px" height="50px"/></a></li>
+                            <li><a href="Questions.html" target="_self"><img src="_img/IconManual.png" title="Manual De Dúvidas" alt="Manual De Dúvidas" width="50px" height="50px"/></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <div id="corpo">
+                <div>
+                    <div>
+                        <h1 id="ReaCad3">Cadastro de Residência</h1>
+                    </div>
+
+                    <div id="DivCadastro">
+
+                        <form method="post" action="enviarResid.php">
+
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label" ><a class="textResid1">Estado: </a></label>
+                                <input type="text" class="Dig2"  name="estado" placeholder="Digite Aqui... "/> 
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">Cidade: </a></label>
+                                <input type="text" class="Dig2"  name="cidade" placeholder="Digite Aqui... "/> 
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">Bairro: </a></label>
+                                <input type="text" class="Dig2"  name="bairro" placeholder="Digite Aqui... "/> 
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">Rua: </a></label>
+                                <input type="text" class="Dig2"  name="rua" placeholder="Digite Aqui... "/> 
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">Número: </a></label>
+                                <input type="number" class="Dig2"  name="numero" placeholder="Digite Aqui... "/> 
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">CEP: </a></label>
+                                <input type="text" class="Dig2" name="cep" placeholder="Digite Aqui... " /> 
+                            </div>
+        
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label"><a class="textResid1">Complemento: </a></label>
+                                <input type="text" class="Dig2" name="complemento" placeholder="Digite Aqui... " /> 
+                            </div>
+        
+                            <div id="Btnalinhar">
+                                <button type="submit" name="EnviarResiden" class="Btn">Enviar</button>
+                            </div>
+        
+        
+                            
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+    
+</html>

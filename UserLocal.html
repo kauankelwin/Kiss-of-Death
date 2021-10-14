@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Usuário</title>
+        <link rel="stylesheet" type="text/css" href="_css/init.css"/>
+        <?php 
+            include ('principalCad.php'); 
+        ?>
+    </head>
+
+    <header id="cabecalho">
+        <div id="cabec">
+            <input type="text" class="pesquisa" name="pesquisa" placeholder="Faça Sua Pesquisa..." />
+        </div>
+        <div>
+            <img src="_img/lupapesq.png" id="iconpes"/>
+        </div>
+    </header>
+
+    <body id="corpo1">
+        <div id="BarCorp">
+
+            <aside id="bar">
+                <div id="lateralBar">
+                    <nav id="menu">
+                        <ul>
+                            <li><a href="init.html" target="_self"><img src="_img/iconhome.png" title="Home - Página Inicial" alt="Home - Página Inicial" width="50px" height="50px"/></a></li>
+                            <li><a href="UserLocal.html" target="_self"><img src="_img/IconMenuUser.png" title="Usuário" alt="Usuário" width="50px" height="50px"/></a></li>
+                            <li><a href="Resid.html" target="_self"><img src="_img/CadResid.png" title="Cadastro de Residência" alt="Cadastro de Residência" width="50px" height="50px"/></a></li>
+                            <li><a href="Questions.html" target="_self"><img src="_img/IconManual.png" title="Manual De Dúvidas" alt="Manual De Dúvidas" width="50px" height="50px"/></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+
+            <div id="corpo">
+                <div>
+                    <div>
+                        <h1 class="ReaCad1">Painel do Usuário</h1>
+
+                    </div>
+
+                    <div id="div1">
+                        <div id="ParaEsquer">
+                            <h1 class="ReaCad1">Dados Cadastrais</h1>
+
+                            <div id="Residen1">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">Nome: </label>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">Nascimento: </label>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">Telefone: </label>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">CPF: </label>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">RG: </label>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">E-mail:  </label>
+                                </div>
+                                <!--$email = $_POST["email"];-->
+                                <!--echo ("Email Definido: ". $email."<br>");-->
+
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label1">Senha: </label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="lateralEsquerda">
+                            <!--<h1>Painel Do Usuário</h1>-->
+                            <img src="_img/IconUser.png" id="ImgUserUser"/>
+                        </div>
+                    </div>
+
+                    <div id="lateralDireita">
+                        <h1 class="ReaCad1">Endereço</h1>
+                        <div id="Residen">
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Estado: </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Cidade: </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Bairro: </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Rua: </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Número: </label>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label1">Complemento: </label>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    
+</html>

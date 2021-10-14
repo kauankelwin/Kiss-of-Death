@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+header#cabecalho2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+    margin: -10px;
+    height: 80px;
+    width: 1351px;
+    background-color:rgba(1, 2, 29, 0.938);
+}
+
+body#corpo2 {
+    background-image: url("../_img/cyborg-77.png");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    background-color: rgba(134, 134, 134, 0.534);
+    
+    width: 1200px;
+    height: 100%;
+    top: auto;
+
+}
+
+.divsCards {
+    background-color: rgba(255, 255, 255, 0.295);
+    padding: 8px;
+    margin-top: 8px;
+    margin-left: 45px;
+    width: 450px;
+    height: 80px;
+
+    border: 1px solid rebeccapurple;
+    border-radius: 2px;
+
+
+
+}
+
+.divsCards:hover {
+    background-color: rgba(116, 115, 115, 0.76);
+    padding: 8px;
+    
+    width: 450px;
+    height: auto;
+    transition:  1s; 
+    
+    
+
+    border: 1px solid rebeccapurple;
+    border-radius: 8px;
+
+
+}
+
+.divsCards .text {
+    visibility:hidden;
+    position:relative;
+}
+
+
+
+.divsCards:hover .text {
+    transition-delay: 0.5s;
+    visibility: visible;
+    font-style: italic;
+    font-size: 15pt;
+    
+}
+
+
+
+h1#textcent {
+    padding: 10px;
+    margin: 30px;
+    font-size: 35pt;
+    font-family: Arial, "Helvetica", sans-serif;
+}
+
+div#titulo {
+    height: 100px;
+}
+
+.FormatText {
+    font-family: "Arial", Helvetica, "sans-serif";
+    text-align: justify;
+    align-items: center;
+}
